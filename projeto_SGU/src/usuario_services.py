@@ -19,8 +19,12 @@ def listar_usuario_email(email):
 
 
 def listar_usuario_id(id):
-    Usuario_db = session.query(Usuario).filter(Usuario.id == id).first()
-    return Usuario_db
+      usuario_db = session.query(Usuario).filter(Usuario.id == id).first()
+    if usuario_db:
+        session.delete(usuario_db)
+        session.commit()
+        return True
+    return False
 
 
 def listar_usario():
@@ -28,11 +32,19 @@ def listar_usario():
     return usuario_db
 
 
-def excluir_usuario():
+def excluir_usuario(id):
     usuario_db = session.query(Usuario).filter(Usuario.id == id).first()
     if usuario_db:
         session.delete(usuario_db)
         session.commit()
         return True
     return None 
+
+def usuario_db = session.query(Usuario).filter(Usuario.id == id).first()
+    if usuario_db:
+        session.delete(usuario_db)
+        session.commit()
+        return True
+    return False
+
 
