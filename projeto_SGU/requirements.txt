@@ -1,0 +1,5 @@
+mysql-connector-python==9.4.0
+passlib==1.7.4
+pwinput==1.0.3
+tqdm==4.67.1
+colorama== 25.2

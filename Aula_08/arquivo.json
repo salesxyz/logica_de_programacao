@@ -1,0 +1,30 @@
+
+[
+  {
+    "tema01": [
+      "pizza", "hamburguer", "sushi", "churrasco", "salada", "lasanha", "tacos", "paella", "curry", "ramen",
+      "pasta", "sorvete", "bolo", "pudim", "crepe", "mousse", "fondue", "tapioca", "brigadeiro", "coxinha",
+      "empada", "bobó de camarao", "escondidinho", "farofa", "pao de queijo", "baiao de dois",
+      "arroz carreteiro", "dobradinha", "canjica", "curau", "pe de moleque", "paçoca", "arroz doce"
+    ],
+    "tema02":  [
+      "leao", "tigre", "elefante", "girafa", "zebra", "canguru", "panda", "urso", "lobo", "raposa",
+      "coelho", "tartaruga", "jacare", "crocodilo", "hipopotamo", "rinoceronte", "bufalo", "antilope",
+      "guepardo", "chita", "hiena"
+    ],
+    "tema03": [
+      "brasil", "argentina", "chile", "colombia", "peru", "venezuela", "uruguai", "paraguai", "bolivia",
+      "equador", "guiana", "suriname", "frança", "espanha", "portugal", "italia", "alemanha",
+      "inglaterra", "irlanda", "escocia", "gales"
+    ],
+    "tema04": [
+      "vermelho", "azul", "verde", "amarelo", "laranja", "roxo", "rosa", "marrom", "cinza", "preto",
+      "branco", "dourado", "prateado", "turquesa", "violeta", "magenta", "ciano", "bege", "lilas"
+    ],
+    "tema05": [
+      "futebol", "basquete", "volei", "tenis", "natacao", "corrida", "ciclismo", "boxe", "judo",
+      "karate", "taekwondo", "ginastica", "surf", "skate", "esgrima", "rugby", "criquete",
+      "hoquei", "golf", "beisebol", "handebol"
+    ]
+  }
+]
